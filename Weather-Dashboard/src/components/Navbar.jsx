@@ -17,11 +17,11 @@ function YourComponent() {
 }
 function Navbar() {
   return (
-    <nav className=" w-full bg-transparent ">
+    <nav className="w-full bg-transparent ">
       <div className="flex items-center justify-between px-4 h-14">
         <div className="flex items-center gap-3 text-[#FEFEFE]">
           <LayoutDashboard className="w-5 h-5 cursor-pointer" />
-          <Bell className="w-5" h-5 />
+          <Bell className="w-5 h-5" />
           <div className="flex items-center gap-1 text-sm">
             <MapPin className="w-5 h-4" />
             <span>Lagos, Nigeria</span>
