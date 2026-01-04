@@ -24,32 +24,32 @@ function WeatherForcast() {
 
             <div className="flex w-full  justify-between gap-4 items-center h-full">
               <div className="text-xs text-gray-400  w-1/2 h-full flex flex-col px-1 items-start justify-center gap-y-1">
-                <p className="flex gap-2">
+                <div className="flex gap-2">
                   <p>Real Feel</p>
                   <p className="font-bold text-black">18°</p>
-                </p>
-                <p className="flex gap-2  whitespace-nowrap">
+                </div>
+                <div className="flex gap-2  whitespace-nowrap">
                   <p>Wind N-E.</p>
                   <p className="font-bold text-black">6-7km/h</p>
-                </p>
-                <p className="flex gap-2 whitespace-nowrap min-w-max">
+                </div>
+                <div className="flex gap-2 whitespace-nowrap min-w-max">
                   <p>Pressure </p>
                   <p className="font-bold text-black">100MB</p>
-                </p>
-                <p className="flex gap-2">
+                </div>
+                <div className="flex gap-2">
                   <p>Humidity </p>
                   <p className="font-bold text-black">51%</p>
-                </p>
+                </div>
               </div>
               <div className="w-1/2 h-full text-gray-400 text-xs flex flex-col items-start justify-center gap-y-1">
-                <p className="flex gap-2">
+                <div className="flex gap-2">
                   <p>Sunrise</p>
                   <p className="font-bold text-black">5:30AM</p>
-                </p>
-                <p className="flex gap-2">
+                </div>
+                <div className="flex gap-2">
                   <p>Sunset</p>
                   <p className="font-bold text-black">6:45</p>
-                </p>
+                </div>
               </div>
             </div>
           </div>
