@@ -2,8 +2,7 @@ import "./index.css";
 import Navbar from "./components/Navbar";
 import WeatherHeader from "./components/WeatherHeader";
 import WeatherForcast from "./components/WeatherForcast";
-import DailyOverview from "./DailyOverview";
-import ForecastList from "./ForcastList";
+import DailyOverview from "./components/DailyOverview";
 
 function App() {
   return (
